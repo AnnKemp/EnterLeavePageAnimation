@@ -9,7 +9,16 @@
  ol, ul{list-style:none;} 
 
  body{
-     background-color:blue;
+     background-color:#130B36;
      padding:0;
      margin:0;
  }
+ button{
+    margin-top:3%;
+    padding:15px;
+    border:solid 2px white;
+    background-color:#130B36;
+    font-variant-caps: all-petite-caps;
+    font-weight: bold;
+    letter-spacing: 4px;
+}

@@ -1,0 +1,10 @@
+footer{
+    padding:3% 3% 3% 6%;
+}
+p{
+    font-size:0.8em;
+    opacity: 0.5;
+}
+p:hover{
+    opacity: 1;
+}

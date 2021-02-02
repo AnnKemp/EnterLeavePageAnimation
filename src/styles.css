@@ -1,24 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@-ms-viewport {
+    width: device-width;
+}
 *{
     box-sizing:border-box;
     text-decoration: none;
-    color:white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
 } 
+body {
+    -ms-overflow-style: scrollbar;
+    background-color: #242943;
+    padding:0;
+    margin:0;
+}
+body, input, select, textarea {
+    
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    line-height: 1.65;
+}
 
  ol, ul{list-style:none;} 
-
- body{
-     background-color:#130B36;
-     padding:0;
-     margin:0;
+ p{
+    font-size: 1.2em;
  }
+
  button{
     margin-top:3%;
-    padding:15px;
+    padding:15px 20px 20px 20px;
+    font-size: 1.2em;
     border:solid 2px white;
-    background-color:#130B36;
     font-variant-caps: all-petite-caps;
     font-weight: bold;
     letter-spacing: 4px;
+    text-align: center;
+    background-color:#242943;
+} 
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 1680px) {
+
+     
+
+}
+
+@media screen and (max-width: 1280px) {
+
+   
+}
+@media screen and (max-width: 736px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+    html, body {
+        min-width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+   
+
 }

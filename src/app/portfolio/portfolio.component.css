@@ -7,7 +7,18 @@
     height:300px;
     float:left;
     clear:both;
-    padding:3%;
+    padding:6%;
+}
+h1{
+   border-bottom: 2px solid white;
+   padding: 0 0 1% 0;
+   line-height: 1em;
+   font-size: 4em;
+}
+p.kortOverzicht{
+    text-transform: uppercase;
+    font-size:1em;
+    line-height: 0.5em;
 }
 p{
     line-height: 2em;

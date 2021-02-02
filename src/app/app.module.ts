@@ -8,6 +8,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
+import { CodeComponent } from './code/code.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FormComponent } from './form/form.component';
     PortfolioComponent,
     HomeComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    CodeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

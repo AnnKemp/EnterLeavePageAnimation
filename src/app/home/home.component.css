@@ -3,7 +3,6 @@
  }
  header h1{
      margin-bottom:0;
-
  }
  h2{
      font-weight:bold;
@@ -27,7 +26,6 @@ button{
      height: 300px;
      padding:3% 3% 0 3%;
  }
- 
  div.right{
      width: 60%;
      position: relative;
@@ -36,24 +34,38 @@ button{
      padding:3% 3% 0 3%;
  }
  section{
-     width: 100%;
-     height: 100%;
+    width: 100%;
+    height: 100%;
     position: relative;
     float: left;
     clear: both;
  }
 .one{
-    background-color: darkcyan;
-    background-image: url();
-    opacity: 0.5;
+    background-image: url("/assets/images/pic01.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-color: white;
+    z-index: 55;
 }
-.one:hover{
-   opacity:1;
+article.color-one{
+    background-color: cyan;
+    opacity: 0;
+    height: 300px;
+    z-index: 999;
+    position: absolute;
+    left:0;
+}
+article.color-one:hover{
+   opacity:0.8;
 }
 .two{
     background-color:#ac72ac;
-    background-image: url();
+    background-image: url("/assets/images/pic02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:85%;
     opacity: 0.5;
+    background-color: white;
 }
 .two:hover{
    opacity:1;

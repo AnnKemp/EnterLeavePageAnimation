@@ -1,1 +1,60 @@
+ header{
+     padding:3% 12% 0 6%;
+ }
+ header h1{
+     margin-bottom:0;
+
+ }
+ h2{
+     font-weight:bold;
+     font-size: 2.6em;
+     margin-bottom:0;
+ }
+ p{ border-top: 3px solid white;
+    padding-top:3%;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-size: 1em;
+}
+button{
+    margin-left: 2em;
+}
+ div.left{
+     width: 40%;
+     position: relative;
+     float:left;
+     height: 300px;
+     padding:3% 3% 0 3%;
+ }
  
+ div.right{
+     width: 60%;
+     position: relative;
+     float: right;
+     height: 300px;
+     padding:3% 3% 0 3%;
+ }
+ section{
+     width: 100%;
+     height: 100%;
+    position: relative;
+    float: left;
+    clear: both;
+ }
+.one{
+    background-color: darkcyan;
+    background-image: url();
+    opacity: 0.5;
+}
+.one:hover{
+   opacity:1;
+}
+.two{
+    background-color:#ac72ac;
+    background-image: url();
+    opacity: 0.5;
+}
+.two:hover{
+   opacity:1;
+}
